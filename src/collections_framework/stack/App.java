@@ -1,4 +1,4 @@
-package stack;
+package collections_framework.stack;
 
 import java.util.Stack;
 
@@ -24,7 +24,7 @@ public class App {
         }
         */
 
-        // check whether the stack is empty or not
+        // check whether the collections_framework.stack is empty or not
         if(years.isEmpty())
             System.out.println("Stack is empty!");
         else

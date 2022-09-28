@@ -1,4 +1,4 @@
-package autoboxing_and_unboxing;
+package collections_framework.autoboxing_and_unboxing;
 
 import java.util.ArrayList;
 
