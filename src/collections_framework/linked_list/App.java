@@ -23,7 +23,7 @@ public class App {
         // Modify the specific element
         cities.remove();
         // Remove the first element
-        cities.remove(0);
+        cities.remove(  0);
         // Remove the first element with index
 
         showAll(cities);
