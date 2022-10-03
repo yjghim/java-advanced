@@ -13,3 +13,17 @@
 ## 사용시 주의할 점
 - **클래스와 인터페이스만 적용**  
 기본 타입(Primitive Type)은 제네릭을 적용할 수 없다.
+
+## 타입 매개변수의 Naming Convention
+- **E(Element)**  
+요소 `List<E>`
+- **K(Key)**  
+키 `Map<K, V>`
+- **N(Number)**  
+숫자
+- **T(Type)**  
+타입
+- **V(Value)**  
+리턴 값 or 매핑된 값
+- **S, U, V**  
+2번째, 3번째, 4번째에 선언된 타입
