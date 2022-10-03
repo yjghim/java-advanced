@@ -6,3 +6,7 @@ public <E extends Character, N extends Number> void display(E element, N number)
     ...
 }
 ```
+- **E extends Character**  
+Character 타입과 Character 타입을 상속받는 자손 클래스 타입만을 사용할 수 있음
+- **N extends Number**
+Number 타입과 Number 타입을 상속받는 자손 클래스 타입만을 사용할 수 있음
