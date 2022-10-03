@@ -31,3 +31,7 @@
 ## 제네릭의 제거 시기  
 코드에서 선언되고 사용된 제네릭 타입은 컴파일 시 컴파일러에 의해 자동으로 검사되어 타입 변환된다.  
 이후 코드 내의 모든 제네릭 타입은 제거되어, 컴파일된 class 파일에는 어떠한 제네릭 타입도 포함되지 않는다.
+
+## advanced
+- [타입 매개변수의 제한](https://github.com/yjghim/java-advanced/tree/master/src/generics/type_parameters)
+- [와일드 카드](https://github.com/yjghim/java-advanced/tree/master/src/generics/wild_card)
