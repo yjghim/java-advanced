@@ -1,7 +1,7 @@
 package collection_framework.comparable_interface;
 
 public class Name implements Comparable<Name> {
-    private String name = null;
+    private String name;
 
     public Name(String name) {
         this.name = name;
@@ -14,9 +14,9 @@ public class Name implements Comparable<Name> {
 
     @Override
     public int compareTo(Name obj) {
-        if(name.length() == obj.name.length())
+        if(this.name.length() == obj.name.length())
             return 0;
-        else if(name.length() == obj.name.length())
+        else if(name.length() < obj.name.length())
             return -1;
         else
             return 1;
