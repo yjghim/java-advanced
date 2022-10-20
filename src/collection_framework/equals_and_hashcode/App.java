@@ -6,11 +6,11 @@ public class App {
     public static void main(String[] args) {
         String name1 = "Ghim";
         String name2 = "Ghim";
-//        System.out.println(name1 == name2); // true
+        System.out.println(name1 == name2); // true
 
         String name3 = new String("Ghim");
         String name4 = new String("Ghim");
-//        System.out.println(name3 == name4); // false
+        System.out.println(name3 == name4); // false
 
         System.out.println(name1.hashCode());
         System.out.println(name2.hashCode());
