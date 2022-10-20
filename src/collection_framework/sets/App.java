@@ -11,7 +11,7 @@ public class App {
         set.add("CCC");
         set.add("DDD");
         set.add("EEE");
-        set.add("AAA");
+        System.out.println(set.add("AAA")); // return false
 
         for(String name : set)
             System.out.println(name);
