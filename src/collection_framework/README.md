@@ -10,13 +10,13 @@
 ## 핵심 인터페이스
 ![collection-framework-hierarchy-in-java](../../img/collection-framework-hierarchy-in-java.PNG)
 컬렉션 프레임워크의 모든 클래스는 **List**와 **Set**, **Map** 인터페이스 중 하나의 인터페이스를 구현하고 있다.
-- [List]()  
+- [List](https://github.com/yjghim/java-advanced/tree/master/src/collection_framework/list)  
 순서가 있는 데이터의 집합으로, 데이터의 중복을 허용  
 `ArrayList` `LinkedList` `Stack` `Queue`
-- [Set]()  
+- [Set](https://github.com/yjghim/java-advanced/tree/master/src/collection_framework/sets)  
 순서가 없는 데이터의 집합으로, 데이터의 중복을 허용하지 않음  
 `HashSet` `TreeSet`
-- [Map]()  
+- [Map](https://github.com/yjghim/java-advanced/tree/master/src/collection_framework/maps)  
 Key와 Value의 쌍으로 이루어진 데이터 집합으로, 순서가 없음  
 Key는 중복을 허용하지 않으며, Value는 중복을 허용한다.  
 `HashMap` `TreeMap`
