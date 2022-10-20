@@ -18,4 +18,5 @@
 `HashSet` `TreeSet`
 - [Map]()  
 Key와 Value의 쌍으로 이루어진 데이터 집합으로, 순서가 없음  
-Key는 중복을 허용하지 않으며, Value는 중복을 허용한다.
+Key는 중복을 허용하지 않으며, Value는 중복을 허용한다.  
+`HashMap` `TreeMap`

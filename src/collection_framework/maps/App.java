@@ -15,18 +15,24 @@ public class App {
         students.put(4, "Shim");
         students.put(7, "Namgung");
 
-//        System.out.println(students.get(2)); // search value by key
+        System.out.println(students.get(2)); // search value by key
 
 //        for(Map.Entry<Integer, String> entry : students.entrySet()) {
 //            System.out.println(entry.getKey()+":"+entry.getValue());
 //        }
-
+//
 //        for(Integer key : students.keySet())
 //            System.out.println(key+":"+students.get(key));
+//
+//        Iterator<Map.Entry<Integer, String>> entry = students.entrySet().iterator();
+//
+//        while(entry.hasNext())
+//            System.out.println(entry.next());
 
-        Iterator<Map.Entry<Integer, String>> entry = students.entrySet().iterator();
+        students.replace(1, "Kim");
+        students.remove(1);
 
-        while(entry.hasNext())
-            System.out.println(entry.next());
+        for(int i : students.keySet())
+            System.out.println(students.get(i));
     }
 }
