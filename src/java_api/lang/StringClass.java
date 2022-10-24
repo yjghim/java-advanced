@@ -46,5 +46,11 @@ public class StringClass {
         arr = name.split("");
         for(int i=0; i<arr.length; i++)
             System.out.println(arr[i]);
+
+        // substring()
+        String city = "Wonju";
+        System.out.println(city.substring(3)); // ju
+        System.out.println(city.substring(0, 3)); // Won
+        System.out.println(city); // Wonju
     }
 }
