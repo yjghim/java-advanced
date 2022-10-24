@@ -35,5 +35,16 @@ public class StringClass {
         System.out.println(lang.toLowerCase());
         System.out.println(lang.toUpperCase());
         System.out.println(lang);
+
+        // split()
+        name = "Young-june Ghim";
+
+        String[] arr = name.split(" ");
+        for(int i=0; i<arr.length; i++)
+            System.out.println(arr[i]);
+
+        arr = name.split("");
+        for(int i=0; i<arr.length; i++)
+            System.out.println(arr[i]);
     }
 }
